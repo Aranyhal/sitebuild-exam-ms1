@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+#sectionOne {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(125, 221, 28);
+}
+
+#sectionTwo {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgoldenrod;
+}
+#buttonOne {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(241, 113, 28);
+}
+#buttonTwo {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(255, 0, 191);
+}
+#buttonThree {
+  position: absolute;
+  bottom: 40px;
+  right: 50vw;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(123, 218, 28);
+}
