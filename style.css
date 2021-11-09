@@ -79,9 +79,11 @@ select {
 }
 #buttonThree {
   position: absolute;
+  margin: 0;
   bottom: 40px;
-  right: 50vw;
-  margin: auto;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 200px;
   height: 60px;
   background-color: rgb(123, 218, 28);
